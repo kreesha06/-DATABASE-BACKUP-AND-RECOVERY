@@ -1,0 +1,17 @@
+create database testdb;
+use testdb;
+
+create table employee(
+id int primary key,
+name varchar(50),
+age int);
+
+insert into employee values(11,'krisha',20);
+insert into employee values(12,'nidhi',21);
+insert into employee values(13,'yuti',21);
+insert into employee values(14,'meet',23);
+insert into employee values(15,'divya',18);
+
+select * from employee;
+
+
